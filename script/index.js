@@ -1,3 +1,4 @@
+
 const loadLessons = () => {
     fetch('https://openapi.programming-hero.com/api/categories') //Promise of response
         .then(res => res.json()) //Promise of json data
